@@ -35,7 +35,7 @@ This is a **Recipe Page project** where users can view a recipe with ingredients
 ### Links
 
 - Solution URL: (https://github.com/asmahmedsakalla2003new-cloud/recipe-website-first-challeng)
-- Live Site URL: [View Live Site](https://your-live-site-url.com)
+- Live Site URL: (https://asmahmedsakalla2003new-cloud.github.io/recipe-website-first-challeng/)
 
 ## My Process
 
