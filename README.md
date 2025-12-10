@@ -30,7 +30,7 @@ This is a **Recipe Page project** where users can view a recipe with ingredients
 
 ### Screenshot
 
-![website image](img/screencapture-127-0-0-1-5500-index-html-2025-12-08-15_17_33.png)
+![website image](./img/screencapture-127-0-0-1-5500-index-html-2025-12-08-15_17_33.png)
 
 ### Links
 
