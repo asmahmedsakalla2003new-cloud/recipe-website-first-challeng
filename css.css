@@ -1,0 +1,195 @@
+@font-face {
+    font-family: "ElMessiri1";
+    src: url(fonts/ElMessiri-Regular.ttf);
+}
+@font-face {
+    font-family: "poppins1";
+    src: url(fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "poppins2";
+    src: url(fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "ElMessiri2";
+    src: url(fonts/ElMessiri-SemiBold.ttf);
+}
+@font-face {
+    font-family: "ElMessiri3";
+    src: url(fonts/ElMessiri-Medium.ttf);
+}
+@font-face {
+    font-family: "ElMessiri4";
+    src: url(fonts/ElMessiri-Bold.ttf);
+}
+
+:root{
+    --background-color:#ffa6a6;
+    --bold:#D34E4E;
+    --div:#F9E7B2;
+    --main-font: #000;
+    --internal-div:#fff;
+    --small-font: #DDC57A;
+}
+body{
+    font-family:"ElMessiri1";
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.main-div{
+    margin: 40px 20px;
+    max-width: 600px;
+    width:90%;
+    padding: 20px;
+    background-color: var(--div);
+    border-radius: 30px;
+    box-shadow: 0 0 20px 0 var(--div);
+}
+
+img{
+  width: 100%;
+  border-radius: 12px;
+  background-color: #000;
+
+}
+.main-div h1{
+    font-family: "ElMessiri4";
+    font-size: 40px;
+
+}
+.main-div p{
+    font-family: "poppins1";
+    font-size: 16px;
+    color: #3a3a3a;
+    margin-top: -20px;
+    margin-bottom: 30px;
+
+}
+.div-2{
+    background-color:#fcbfbf54;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding: 30px;
+     box-shadow: 0 0 10px 0 var(--background-color);
+
+}
+.div-2 p{
+ margin-top: 0;
+    position:relative;
+     font-family: "poppins2";
+    font-size: 18px;
+    color:#fa4d6a;
+    
+}
+.div-2 p::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color:#fa4d6a;
+    bottom: -10px;
+    left: 0;
+    border-radius: 50px;
+}
+.div-2 table{
+   padding: 30px;
+}
+.div-2 table span{
+    position: relative;
+    font-family: "poppins1";
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--main-font);
+    margin-left: 10px;
+   
+}
+.div-2 table span::before{
+    position: absolute;
+    left: -20px;
+    top: 6px;
+    content: "";
+    font-weight: 900;
+    width: 10px;
+    height: 10px;
+    background-color: #fa4d6a;
+    border-radius: 50%;
+}
+.div-2 table td{
+     font-size: 16px;
+     font-family: "poppins1";
+    color:#3a3a3a;
+    border-bottom: 1px solid var(--background-color);
+    padding: 10px;
+}
+.div-3{
+     margin-bottom: 35px;
+}
+.div-3 p{
+    position:relative;
+    font-family: "ElMessiri4";
+    font-size: 25px;
+    color: var(--bold);
+}
+.div-3 p::after{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    background-color: var(--bold);
+    bottom: -10px;
+    left: 0;
+    border-radius: 20%;
+}
+.div-3 li{
+    font-family: "ElMessiri2";
+    font-size: 18px;
+    color:#3a3a3a;
+}
+.div-3 table , .div-2 table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+.div-3 td, .div-3 tr{
+    border-bottom: 1px solid  var(--background-color);
+    padding: 8px;
+    font-family: "poppins1";
+    font-size: 16px;
+    color:#3a3a3a
+}
+
+@media (max-width: 700px) {
+    .main-div{
+        margin: 20px 10px;
+        padding: 15px;
+    }
+    .main-div h1{
+        font-size: 30px;
+    }
+    .div-2 table, .div-3 table{
+        font-size:14px;
+        word-break: break-word;
+    }
+    .div-2 table span{
+        font-size: 16px;
+    }
+   
+}
+@media (max-width: 400px) {
+    .main-div h1{
+        font-size: 24px;
+    }
+    .div-2 table, .div-3 table{
+
+        font-size: 12px;
+    }
+    .div-2 table span{
+        font-size: 12px;
+    }
+
+    
+}
